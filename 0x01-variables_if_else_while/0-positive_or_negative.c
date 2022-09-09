@@ -4,9 +4,9 @@
 
 /**
 *main - print if number is positive, zero, or negative
-*Description: print using the printf function
+*Description: using the main function
 *this progam prints out "If the number is positive, zero, or negative"
-Return: 0
+*Return: 0
 */
 int main(void)
 {
@@ -19,7 +19,7 @@ int main(void)
 {
 	printf("%i is positive\n", n);
 }
-	else if (n==0)
+	else if (n == 0)
 {
 	printf("%i is zero\n", n);
 }
