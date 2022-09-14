@@ -2,15 +2,15 @@
 
 /**
  * jack_bauer - function that prints every minute of the day of Jack Bauer
- * starting from 00:00 to 23:59 min loops counts minutes hour loops counts hours
- * and resets minutes
+ *
  * Return: Always 0.
  */
 void jack_bauer(void)
 {
 	int hours = 0;
-	int minutes = 0 ; int hours_remainder;
-	int minutes remainder;
+	int minutes = 0;
+	int hours_remainder;
+	int minutes_remainder;
 
 	while (hours <= 23)
 	{
