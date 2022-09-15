@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_most_numbers - function that prints the numbers apart from 2 and 4
  * Return: 0
@@ -11,7 +12,7 @@ void print_most_numbers(void)
 	{
 		if ((n == 50) || (n == 52))
 		{
-			proceed;
+			continue;
 		}
 		_putchar(n);
 	}
