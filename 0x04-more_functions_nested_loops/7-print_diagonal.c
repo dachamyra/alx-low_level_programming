@@ -1,8 +1,8 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_diagonal - function that draws a diagonal line
- * @n; int used for the argument
+ * print_diagonal - function that prints a diagonal line
+ * @n; parameter
  * Return: 0
  */
 void print_diagonal(int n)
