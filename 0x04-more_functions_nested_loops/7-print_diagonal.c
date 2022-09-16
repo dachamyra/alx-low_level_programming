@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_diagonal - function that prints a diagonal line
- * @n; parameter
+ * @n: parameter
  * Return: 0
  */
 void print_diagonal(int n)

@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_square - function that prints a square
  * @size: parameter
@@ -17,7 +18,7 @@ void print_square(int size)
 				_putchar('#');
 			}
 			
-			_putchar('0');
+			_putchar('#');
 			_putchar('\n');
 		}
 	}
